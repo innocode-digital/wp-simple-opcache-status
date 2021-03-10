@@ -1,0 +1,25 @@
+{
+  "name": "innocode-digital/wp-simple-opcache-status",
+  "version": "1.0.0",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">=7.1",
+    "composer/installers": "~1.0"
+  },
+  "description": "Shows status information about the cache.",
+  "autoload": {
+    "files": ["src/functions.php"]
+  },
+  "authors": [
+    {
+      "name": "Innocode",
+      "email": "post@innocode.no",
+      "homepage": "https://innocode.com/"
+    },
+    {
+      "name": "Viktor Kuliebiakin",
+      "email": "kuliebiakin@gmail.com"
+    }
+  ]
+}
